@@ -1,0 +1,38 @@
+.main{
+  background-color:#e6e8f5 ;
+}
+
+.para-text {
+  line-height: 24px;
+  color: #6d6d6d;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: justify;
+  line-height: 40px;
+  display: grid;
+  justify-content: center;
+}
+
+ul li{
+ list-style-type: none;
+ font-size: 17px;
+}
+
+h1{
+  color: #000;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: #6d6d6d;
+}
+.footer-col:hover {
+  padding-left: 10px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  color: white !important;
+}
+

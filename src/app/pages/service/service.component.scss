@@ -1,0 +1,154 @@
+.main {
+  background-color: #e6e8f5;
+}
+
+.main-text {
+  font-size: 36px;
+  padding: 15px 0;
+  line-height: 42px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.para-text {
+  line-height: 24px;
+  color: #6d6d6d;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+
+.heading {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.body-color {
+  background-color: #000;
+}
+
+.sub-heading {
+  color: #fff;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.para {
+  color: #fff;
+  font-size: 16px !important;
+  width: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.para-text1 {
+  line-height: 24px;
+  color: #6d6d6d;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.sparate-button {
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #dee0e4 !important;
+  padding: 15px 0;
+  text-align: center;
+  width: 14.25%;
+  background-color: #FEFEFE;
+}
+
+#main-button {
+  background: #000;
+  color: #fff;
+  width: 30%;
+  padding: 8px;
+  border-radius: 30px;
+  font-size: 25px;
+  height: 90%;
+  margin: 10px;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.display-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 14px;
+}
+
+.new-text {
+  font-size: 40px;
+  font-weight: 600 !important;
+}
+
+.container-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .sparate-button {
+    display: none;
+  }
+
+  .display-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .child-button {
+    display: contents;
+  }
+  #main-button {
+    width: 100%;
+  }
+
+  .new-text {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600 !important;
+  }
+
+  .main-text{
+    text-align: center;
+  }
+
+  .para-text{
+    text-align: justify;
+  }
+
+  .body-color{
+    width: 95%;
+  }
+}
+.card-body{
+  background-color: #000;
+}
+
+.footer-col:hover {
+  padding-left: 10px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  color: white !important;
+}
+.background-image{
+  background-image: url('https://forkfreight.com/wp-content/uploads/2021/07/save-img-1.webp'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
